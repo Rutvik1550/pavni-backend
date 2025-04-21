@@ -12,7 +12,7 @@ connectDB();
 const app = express();
 app.use(express.json());
 const corsOptions = {
-  origin: ['http://localhost:3001', 'https://yourfrontend.com', "*"],
+  origin: ['http://localhost:3001', 'https://yourfrontend.com', "*", "https://pavni-frontend.vercel.app"],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 };
